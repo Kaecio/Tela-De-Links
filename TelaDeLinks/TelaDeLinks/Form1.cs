@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TelaDeLinks
 {
-    public partial class Form1 : Form
+    public partial class formLink : Form
     {
-        public Form1()
+        public formLink()
         {
             InitializeComponent();
         }
