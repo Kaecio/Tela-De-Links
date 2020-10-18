@@ -49,20 +49,22 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Location = new System.Drawing.Point(198, 203);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel2.Size = new System.Drawing.Size(101, 13);
             this.linkLabel2.TabIndex = 1;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "linkLabel2";
+            this.linkLabel2.Text = "Trybe/areaDoAluno";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Location = new System.Drawing.Point(198, 261);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel3.Size = new System.Drawing.Size(77, 13);
             this.linkLabel3.TabIndex = 2;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "linkLabel3";
+            this.linkLabel3.Text = "freeCodeCamp";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // Form1
             // 

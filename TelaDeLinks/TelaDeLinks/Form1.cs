@@ -26,5 +26,15 @@ namespace TelaDeLinks
         {
             System.Diagnostics.Process.Start(endLink);
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AbrirLink("https://app.betrybe.com/course");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AbrirLink("https://www.freecodecamp.org/learn/");
+        }
     }
 }
